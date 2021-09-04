@@ -1,5 +1,5 @@
 {
-  "name": "strapi-blog",
+  "name": "strapi-auth",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,9 +10,8 @@
     "strapi": "strapi",
     "postinstall": "cd plugins/wysiwyg && npm i"
   },
-  "devDependencies": {},
   "dependencies": {
-    "strapi": "^3.5.3",
+    "strapi": "^3.6.0",
     "strapi-admin": "^3.5.3",
     "strapi-connector-mongoose": "^3.5.3",
     "strapi-plugin-content-manager": "^3.5.3",
